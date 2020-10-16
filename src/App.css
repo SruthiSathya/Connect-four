@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.App p {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.3em;
+  font-style: italic;
+}
+
+.App button {
+  margin: 5px;
+  height: 25px;
+  cursor: pointer;
+  border-radius: 2px;
+  border: 1px solid black;
+  background-color: rgb(238, 226, 226);
+  font-size: 1em;
+}
+
+.App button:disabled {
+  background-color: lightblue;
+  border: 1px solid grey;
+  cursor: auto;
+}
+
+body {
+  background-color: #dbdbdb;
+  color: white;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+}
