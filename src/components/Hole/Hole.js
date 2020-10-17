@@ -1,14 +1,14 @@
 import React from 'react';
-import styles from './Hole.css';
+import  './Hole.css';
 
 const hole = (props) => {
     var classes = [];
-    classes.push(styles.Hole);
+    classes.push("Hole");
     if(props.cellVal === 1){
-        classes.push(styles.Black);
+        classes.push("Black");
     }
     if(props.cellVal === 2){
-        classes.push(styles.Red);
+        classes.push("Red");
     }
     return(
         <div className={classes.join(' ')}>

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Row.css';
+import './Row.css';
 import Cell from '../Cell/Cell';
 
 const Row = (props) => {
@@ -8,7 +8,7 @@ const Row = (props) => {
         cells.push(<Cell key={i} cellVal={props.cells[i]} row={props.row} col={i} cellClick={props.cellClick}/>);
     }
     return(
-        <div className={styles.Row}>
+        <div className="Row">
             {cells}
         </div>
     )

@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-import styles from '../App.css';
+import '../App.css';
 import Board from './Board/Board';
 
 
@@ -278,7 +278,7 @@ export default class Main extends Component {
       }
     }
     return (
-      <div className={styles.App}>
+      <div className="App">
        
         <h1>Connect 4</h1> 
         <button disabled={this.state.level===0} onClick={()=>this.levelClick(0)}>Easy</button>

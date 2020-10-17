@@ -6,9 +6,9 @@
   border-right: 5px solid rgb(194, 207, 3); */
 }
 
-@media (min-width: 385px) {
+/* @media (min-width: 385px) {
   .Board {
     border-left: 10px solid rgb(248, 248, 248);
     border-right: 10px solid rgb(248, 248, 248);
   }
-}
+} */
